@@ -1,3 +1,5 @@
+//Q- Print all the duplicate characters from a string
+
 const mapOfString = str => {
     const map ={};
     str.split("").forEach(i => map[i] = map[i] ? map[i] + 1: 1);
