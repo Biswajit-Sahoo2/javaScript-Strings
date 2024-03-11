@@ -1,6 +1,7 @@
 //Write a JavaScript function to check whether an 'input' is a string or not.
 
 is_string = function(input) {
+    //Check if it is a string or not
     if (Object.prototype.toString.call(input) === '[object String]')
       return true;
     else
